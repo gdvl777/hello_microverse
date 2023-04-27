@@ -1,288 +1,233 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
+  - [Setup](#setup) & [Install](#install)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Hello-Microverse
 
-> Describe your project in 1 or 2 sentences.
+> Description 
+The goal of this project is to set up linters in your HTML and CSS project to improve the quality of your code and help catch errors and potential issues. Linters are tools that let you check your code to make sure it follows coding best practices. By using this project, you will be able to improve the quality of your code and save time by avoiding common mistakes.
 
-**[your_project__name]** is a...
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With
+
+
+ This project was carried out using the following tools:
+
+  <ul>
+    <li><a href="">Visual Studio Code - an open source and free code editor</a></li>
+    <li><a href="">Terminal - a terminal emulator for running commands</a></li>
+    <li><a href="">GitHub - a software development platform based on Git</a></li>
+    <li><a href="">ESLint - a JavaScript linter to detect coding errors and potential issues
+</a></li>
+    <li><a href="">Stylelint - a CSS linter to detect syntax errors and formatting issues in CSS files
+</a></li>
+  </ul>
+</details>
+
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+This project was carried out using the following technologies:
 
 <details>
-  <summary>Client</summary>
+<summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="">HTML - the standard markup language for creating web pages</a></li>
+    <li><a href="">CSS - a style language used to define the presentation of web pages</a></li>
+    <li><a href="">GitHub - a software development platform based on Git</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+### Key Features
 
-<!-- Features -->
+- Configuring and using linters to improve the quality of HTML and CSS code
+- Detection of errors and potential problems in the code through the use of linters
+- Help in implementing good coding practices in HTML and CSS
+- Ability to automate code quality checking to save time and avoid common mistakes
 
-### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+## 💻 Getting Started 
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+These instructions will allow you to configure linters to improve the quality of your HTML and CSS code.
 
-<!--
-Example command:
+Requirements
+Before you begin, you must have the following installed on your computer:
 
-```sh
- gem install rails
-```
- -->
+Node.js (version 12 or higher)
+npm (usually included with Node.js)
+
+- Install
+Clone this GitHub repository to your local machine using the following command(cmd):
+
+> git clone https://github.com/your_user/your_project.git*
+
+- Open a terminal and navigate to the root directory of the project.
+
+Install dependencies by running the following command(cmd):
+
+> npm install
+
+- Use
+- To run linters and check the quality of your HTML and CSS code, run the following command:
+
+> npm run lint
+
+This command will run the linters for your HTML and CSS code and let you know of any issues it finds.
+
+To customize the linter rules, you can modify the linter configuration file (for example, .eslintrc for ESLint or .stylelintrc for stylelint) in the root directory of the project.
+
+These instructions should allow you to configure linters and check the quality of your HTML and CSS code. Feel free to customize these instructions to suit your project, its requirements, and the specific dependencies needed for your linters setup.
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+  > git@github.com:GhostEsso/Hello-Microverse.git
+	
+If you want to use the linters setup in your own project, you can follow these instructions to integrate it into your project.
+
+Requirements
+To integrate the linters configuration into your project, you must have the following installed on your computer:
+
+Node.js (version 12 or higher)
+npm (usually included with Node.js)
+Facility
+Create a new directory where you want to include the linters configuration.
+
 
 ### Install
 
-Install this project with:
 
-<!--
-Example command:
+Open a terminal and navigate to the directory you just created.
 
-```sh
-  cd my-project
-  gem install
-```
---->
+Run the following command to initialize your project and create a package.json file:
 
-### Usage
 
-To run the project, execute the following command:
+> npm init -y
 
-<!--
-Example command:
+Install the linters dependencies by running the following command:
 
-```sh
-  rails server
-```
---->
+
+
+> npm install --save-dev eslint stylelint
+
+Copy the linters configuration files to your project by running the following command:
+
+
+> npx degit https://github.com/your_user/your_project/linters-config.
+
+This command will copy the linters configuration files from your GitHub repository to your local project.
+
+You can customize linter rules by modifying configuration files (for example, .eslintrc for ESLint or .stylelintrc for stylelint) in your project's root directory.
+
+These instructions should allow you to integrate the configuration of linters into your project and check the quality of your HTML and CSS code. Feel free to customize these instructions to suit your project, its requirements, and the specific dependencies needed for your linters setup.
+
 
 ### Run tests
 
-To run tests, run the following command:
+Open a terminal and navigate to your project's root directory.
 
-<!--
-Example command:
+Run the following command to run ESLint and check the quality of your HTML code:
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
-### Deployment
+> npx eslint **/*.html
 
-You can deploy this project using:
+Run the following command to run stylelint and check the quality of your CSS code:
 
-<!--
-Example:
 
-```sh
+> npx stylelint "**/*.css"
 
-```
- -->
+These commands will run the linters and tell you about errors and warnings in your HTML and CSS code.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+AUTHORS
 
-> Mention all of the collaborators of this project.
+## 👥 Authors: GhostEsso
 
-👤 **Author1**
+- GitHub: [@githubhandle](https://github.com/GhostEsso)
+- Twitter: [@twitterhandle](https://twitter.com/TambanaEssohana)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/essohanam-tambana-62aa081a1/?originalSubdomain=tg)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [1] **Adding new pages or sections to the website**
+- [2] **Integration of a search functionality**
+- [3] **Mise en place d'un système d'authentification et d'autorisation pour les utilisateurs**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+
+
+CONTRIBUTING
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions are welcome and will be appreciated! If you would like to contribute to this project, please follow these steps:
 
-Feel free to check the [issues page](../../issues/).
+Fork this project.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Create a branch for your feature > git checkout -b feature/AmazingFeature.
 
-<!-- SUPPORT -->
+Commit your changes > git commit -m 'Add some AmazingFeature'.
 
-## ⭐️ Show your support <a name="support"></a>
+Push your branch > git push origin feature/AmazingFeature.
 
-> Write a message to encourage readers to support your project
+Open a pull request.
+
+Once your pull request has been reviewed and accepted, your feature will be added to the project.
+
+Feel free to contact me if you have any questions or comments on how to contribute to this project.
+
+
+SUPPORT
+
+## ⭐️ Show your support
+If you liked this project, don't hesitate to support it by giving a ⭐️!
+
+It means a lot to me and encourages me to continue working on this project and to create other interesting projects in the future.
+
+If you have any comments or suggestions to improve this project, do not hesitate to contact me.
 
 If you like this project...
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
+ACKNOWLEDGEMENTS <a name="acknowledgements"></a>
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments 
 
-> Give credit to everyone who inspired your codebase.
+I would like to thank NTIHINDUKA ALPHA, ROBERTSON ARTUR, Felicia G. Awuah for their excellent work in revising my README file. Their feedback greatly improved the quality and clarity of my project documentation.
 
-I would like to thank...
+Their contribution and support have been of great help to me throughout the development of this project. I am grateful for his time and expertise.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Thanks again, NTIHINDUKA ALPHA, ROBERTSON ARTUR, Felicia G. Awuah.
 
-<!-- FAQ (optional) -->
+I am grateful for any input and support for this project. If you have contributed to the project and are not on this list, please contact me so I can add you.
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+## 📝 Licence 
 
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[MIT Licence](LICENSE.md)
