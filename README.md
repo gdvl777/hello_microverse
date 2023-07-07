@@ -2,8 +2,10 @@
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-</div>
+
   <h3><b>Hello Microverse</b></h3>
+
+</div>
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
